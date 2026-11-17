@@ -1,0 +1,8 @@
+# blackarch_awesome_configuration.
+
+# installation blackarch-config-awesome.
+sudo pacman -S blackarch-config-awesome
+
+# copying of the configurations-files.
+cp /usr/share/blackarch/config/awesome/etc/xdg/awesome/rc.lua.blackarch ~/.config/awesome/rc.lua
+cp -a /usr/share/blackarch/config/awesome/usr/share/awesome/themes/blackarch /usr/share/awesome/themes/
